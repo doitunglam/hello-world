@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: configure
-      run: /main.cpp
+      run: main.cpp
     - name: make
       run: make
     - name: make check
