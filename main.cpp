@@ -10,6 +10,9 @@ int main()
    // freopen(".out","w",stdout);
     ios_base::sync_with_stdio(false);
     cin.tie(0);cout.tie(0);
-    cout<<"Hello world";
+    string Name;
+    cout<<"Tell me your name";
+    cin>>Name;
+    cout<<"Hello "<<Name;
         return 0;
 }
